@@ -51,6 +51,14 @@
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize" >
         </activity>
+        <activity
+            android:name="com.idlefish.flutterboost.containers.BoostFragmentActivity"
+            android:exported="true"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
 
         <activity
             android:name=".tab.TabMainActivity"
